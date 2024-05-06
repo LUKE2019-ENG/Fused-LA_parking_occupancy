@@ -1,0 +1,5 @@
+#create s3 bucket
+aws s3 mb s3://fused-uniqueid --region eu-north-1
+
+#listing 
+aws s3 ls --region eu-north-1
